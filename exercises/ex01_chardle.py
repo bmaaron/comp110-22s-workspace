@@ -1,8 +1,22 @@
 """EX01 Chardle Project."""
 
 __author__ = "730530687"
+
+
 w: str = input("Enter a 5-character word: ")  # w = word
+
+length_w: int = len(w)
+if length_w != 5:
+    print("Error: Word must contain 5 characters.")
+    exit()
+
 character: str = input("Enter a single chatacter: ")
+
+length_character: int = len(character)
+if length_character != 1:
+    print("Error: Character must be a single character.")
+    exit()
+
 print("Searching for " + character + " in " + w)
 count: int = 0
 
