@@ -4,12 +4,11 @@ __author__ = "730530687"
 
 
 w: str = input("Enter a 5-character word: ")  # w = word
-
 length_w: int = len(w)
 if length_w != 5:
     print("Error: Word must contain 5 characters.")
     exit()
-
+    
 character: str = input("Enter a single chatacter: ")
 
 length_character: int = len(character)
@@ -45,5 +44,6 @@ if count == 0:
 
 if count == 1:
     print(str(count) + " instance of " + character + " found in " + w)
+
 if count > 1:
     print(str(count) + " instances of " + character + " found in " + w)
