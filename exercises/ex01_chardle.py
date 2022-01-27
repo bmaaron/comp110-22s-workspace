@@ -41,9 +41,10 @@ if character == w[4]:
 
 if count == 0:
     print("No instances of " + character + " found in " + w)
-
-if count == 1:
-    print(str(count) + " instance of " + character + " found in " + w)
-
-if count > 1:
-    print(str(count) + " instances of " + character + " found in " + w)
+else:
+    if count == 1:
+        print(str(count) + " instance of " + character + " found in " + w)
+    else:
+        if count > 1:
+            print(str(count) + " instances of " + character + " found in " + w)
+            
