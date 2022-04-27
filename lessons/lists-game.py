@@ -38,3 +38,7 @@ print(f"Total score: {sum}")
 # # Access the last item of a list
 # last_index: int = len(rolls) - 1
 # print(rolls[last_index])
+
+
+a_list: list = ["hello", "goodbye"]
+print(a_list[1])

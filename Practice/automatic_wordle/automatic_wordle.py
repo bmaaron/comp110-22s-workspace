@@ -33,7 +33,7 @@ temp_tuple = tuple(wordle_words)
             elif feedback[i] == "y" and guess[i] not in word:
                 wordle_words.remove(word)
                 break
-word:
+                word
             elif feedback[i] == "y" and guess[i] == word[i]:
                 wordle_words.remove(word)
                 break
